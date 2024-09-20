@@ -28,3 +28,20 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000.
+Usage
+Start the Game: The game will start as soon as the page is loaded.
+Control the Dino: Press the spacebar or tap the screen (on mobile) to make the dino jump.
+Avoid Obstacles: Jump over the cacti to avoid hitting them.
+Game Over: If the dino hits a cactus, the game will display a "Game Over" message, and you can restart by pressing a button.
+
+Example
+When you open the app:
+
+The dinosaur starts running automatically.
+Press the spacebar or tap the screen to jump over obstacles.
+The game tracks your score and resets after you hit an obstacle.
+Dependencies
+React: Frontend framework for building the UI.
+Custom Hooks: Manage game logic like jumping and obstacle generation.
+CSS for Animation: Use CSS or libraries like react-spring to handle the smooth animations of the dino and obstacles.
+
