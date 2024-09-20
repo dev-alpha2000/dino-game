@@ -7,3 +7,24 @@ Score Tracking: The game keeps track of the player’s score, which increases as
 Obstacle Generation: Randomly generated obstacles that increase in difficulty as the game progresses.
 Game Over Screen: Display a game-over screen when the dino hits an obstacle, with an option to restart the game.
 Responsive Design: Works on mobile, tablet, and desktop devices.
+
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/dino-game-app.git
+cd dino-game-app
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
